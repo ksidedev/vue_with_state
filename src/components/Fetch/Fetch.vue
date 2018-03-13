@@ -2,13 +2,13 @@
   <div class="fetch">
   <h5 className="heading">Fetch with Axios</h5>
   <ul>
-    <li v-for="value in posts.data" :key="value">
+    <li v-for="value in posts.data" :key="value.firstname">
         {{value.first_name}} {{value.last_name}}
     </li>
   </ul>
 
   <ul v-if="errors && errors.length">
-    <li v-for="error of errors" :key="error.length">
+    <li v-for="error of errors" :key="error.errors">
       {{error.message}}
     </li>
   </ul>
