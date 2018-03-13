@@ -1,6 +1,6 @@
 # vue-project + VueX (State)
 
-> A Vue.js starter project
+> A Vue.js starter project with Vuex for state management
 
 ## Build Setup
 
